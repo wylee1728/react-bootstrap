@@ -118,6 +118,7 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(
       }
     });
     const Transition = transition === true ? Fade : transition;
+    console.log('test');
     const alert = (
       <div
         role="alert"
